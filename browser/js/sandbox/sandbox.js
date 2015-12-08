@@ -5,7 +5,7 @@ app.config(($stateProvider) => {
     $stateProvider.state('sandbox', {
         url: '/sandbox',
         templateUrl: 'js/sandbox/sandbox.html',
-        controller: 'SandBoxController'
+        controller: 'SandboxController'
 
     });
 });
